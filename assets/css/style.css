@@ -81,7 +81,7 @@ h6 {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: #040b14;
+    background: #8417cc;
     overflow-y: auto;
 }
 
@@ -111,8 +111,8 @@ h6 {
 #header .profile .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #212431;
-    color: #fff;
+    background: #fff;
+    color: #8417cc;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -124,7 +124,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-    background: #149ddd;
+    background: #a528ee;
     color: #fff;
     text-decoration: none;
 }
@@ -168,7 +168,7 @@ h6 {
 .nav-menu a {
     display: flex;
     align-items: center;
-    color: #a8a9b4;
+    color: #fff;
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -178,7 +178,7 @@ h6 {
 .nav-menu a i {
     font-size: 24px;
     padding-right: 8px;
-    color: #6f7180;
+    color: #fff;
 }
 
 .nav-menu a:hover,
@@ -186,12 +186,14 @@ h6 {
 .nav-menu li:hover>a {
     text-decoration: none;
     color: #fff;
+    border: 1px solid rgb(254, 252, 255);
+    border-radius: 20px;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active>a i,
 .nav-menu li:hover>a i {
-    color: #149ddd;
+    color: #d6cddb;
 }
 
 
@@ -236,7 +238,7 @@ h6 {
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/newbackgroundcyber.gif") top center;
+    background: url("../img/yourname.jpeg") top center;
     background-size: cover;
 }
 
@@ -319,7 +321,7 @@ section {
 }
 
 .section-bg {
-    background: #040b14;
+    background: #8417cc;
     color: white;
 }
 
@@ -333,7 +335,7 @@ section {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #173b6c;
+    color: #8417cc;
 }
 
 .section-title h2::after {
@@ -359,7 +361,7 @@ section {
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #173b6c;
+    color: #8417cc;
 }
 
 .about .content ul {
@@ -374,7 +376,7 @@ section {
 .about .content ul i {
     font-size: 20px;
     padding-right: 2px;
-    color: #149ddd;
+    color: #8417cc;
 }
 
 .about .content p:last-child {
@@ -860,7 +862,7 @@ section {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #173b6c;
+    color: #8417cc;
 }
 
 .contact .info .email p {
@@ -874,8 +876,8 @@ section {
 .contact .info .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #333;
-    color: #fff;
+    background: #fafafa;
+    color: #8417cc;
     line-height: 1;
     padding: 8px 0;
     border-radius: 50%;
@@ -887,8 +889,8 @@ section {
 }
 
 .contact .info .social-links a:hover {
-    background: #149ddd;
-    color: #fff;
+    background: #fafafa;
+    color: #8417cc;
 }
 
 .contact .info .email:hover i,
@@ -1164,7 +1166,7 @@ section {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background: #040b14;
+    background: #8417cc;
 }
 
 #footer .copyright {
